@@ -1,3 +1,85 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+	box-sizing: border-box;
+}
+body{
+	background: #BFBFBF
+}
+header{
+	width:100%;
+	background-color: #91BBF2;
+	height: 45px;
+	text-align: center
+}
 
+#container{
+	width:800px;
+	margin: 0 auto;
+	background: #860002
+}
+.left{
+	width:650px;
+	height: 200px;
+	background-color:rgba(255,255,255,.5); 
+	border-radius: 25px;
+	float: center;
+	margin: 20px 20px 20px 70px;
+	padding: 20px 20px 20px 20px;
+	clear: right
+	
+}
+.right{
+	width:400px;
+	height: 200px;
+	background-color:rgba(255,255,255,.5); 
+	border-radius: 25px;
+	float: center;
+	margin: 20px 20px 20px 180px;
+	padding: 20px 20px 20px 20px;
+	clear: left
+	
+	
+}
+
+footer{
+	width:100%;
+	height: 20px;
+	background-color: #91BBF2;
+	clear: both
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #034731;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 50px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#090357;
+}li a:hover:not(.active) {
+  background-color: #111;
+}
